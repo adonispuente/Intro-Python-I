@@ -49,6 +49,7 @@ arguments = sys.argv
 #         print the calendar for the current month
 if num_args == 1:
     print(calendar.month(today.year, today.month))
+    print(today)
 #    - elif one input
 #         assume the additional argument is the month and print that month for current year
 elif num_args == 2:

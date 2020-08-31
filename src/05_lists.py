@@ -16,7 +16,9 @@ for i in y:
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
+#removes the first instance of that number
 x.remove(8)
+# x.remove(2)
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]

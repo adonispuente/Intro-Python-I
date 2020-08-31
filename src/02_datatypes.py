@@ -18,6 +18,6 @@ print(x+int(y))
 
 
 # Write a print statement that combines x + y into the string value 57
-
+# turning them into strings so they dont actually add together, the strings just merge
 # YOUR CODE HERE
 print(str(x) + y)

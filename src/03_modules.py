@@ -15,7 +15,7 @@ for arg in sys.argv:
     print(arg)
 # Print out the OS platform you're using:
 # YOUR CODE HERE
-print(sys.platform)
+print(sys.platform + "SYSTEM PLATFORM")
 
 # Print out the version of Python you're using:
 # YOUR CODE HERE
@@ -26,11 +26,11 @@ print(str(sys.version_info.major) + "." +
 # See the docs for the OS module: https://docs.python.org/3.7/library/os.html
 
 # Print the current process ID
-print(os.getpid())
+print(str(os.getpid()) + " CURRENT PROCCESS")
 
 # Print the current working directory (cwd):
 # YOUR CODE HERE
-print(os.getcwd())
+print(os.getcwd() + "CURRENT DIRECTORY")
 
 # Print out your machine's login name
 # YOUR CODE HERE
