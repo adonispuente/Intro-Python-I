@@ -18,3 +18,7 @@ print("x is {x}, y is {y:.2f}, z is \"{z}\"".format(x=x, y=y, z=z))
 
 # Finally, print the same thing using an f-string
 print(f"x is {x}, y is {y:.2f}, z is \"{z}\"")
+
+print(f"x is {x}, y is {y:.3f}, z is \"{z}\"")
+
+# The .2f is just a formatting tool to solve the decimal place issue

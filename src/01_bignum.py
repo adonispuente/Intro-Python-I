@@ -3,4 +3,8 @@
 
 # YOUR CODE HERE
 value = 2*65536
+
+num = 2
+num2 = 65536
+print(num * num2)
 print(value)
